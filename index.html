@@ -8,12 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700" rel="stylesheet">
-
 <!--ШРИФТ-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
-<!--ШРИФТ-->
 
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&display=swap" rel="stylesheet">
+<!--ШРИФТ-->
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -33,9 +36,10 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     
   </head>
-  <!-- Yandex.Metrika counter --> <script src="https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js" type="text/javascript" ></script> <script type="text/javascript" > try { var yaCounter71339293 = new Ya.Metrika({ id:71339293, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } </script> <noscript><div><img src="https://mc.yandex.ru/watch/71339293" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+  
   <body>
 
   <div class="site-wrap">
@@ -59,22 +63,29 @@
       <div class="container" style="padding-left: 0px;">
         <div class="row align-items-center">
           
-          <div class="col-6 col-xl-2">
+          <div class="col-6 col-xl-4">
             <nobr><ul style="margin: 0px;"><h1 class="mb-0"><a href="index.html" class="text-black h3 mb-0">
               Angelika Romanova<span class="text-primary"></span></a></h1></ul></nobr>
             <ul style="margin: 0px;"><a href="index.html" class="text-black mb-0">wedding&#160photographer<span class="text-primary"></span></a></ul>
           </div>
           
-          <div class="col-10 col-md-8 d-none d-xl-block">
+          <div class="col-10 col-md-6 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
 
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li class="active"><a href="index.html">Portfolio</a></li>
                 <li class="has-children">
-                  <a href="#">Price</a>
+                  <a href="#">Portfolio</a>
                   <ul class="dropdown">
-                    <li><a href="price_w.html">Wedding</a></li>
-                    <li><a href="price_lf.html">Love Story / Family</a></li>
+                    <li><a href="portfolio_w.html">Wedding</a></li>
+                    <li><a href="portfolio_ls.html">Love Story</a></li>
+                  </ul>
+                </li>
+
+                <li class="has-children">
+                  <a href="#">Packages</a>
+                  <ul class="dropdown">
+                    <li><a href="packages_w.html">Wedding</a></li>
+                    <li><a href="packages_lf.html">Love Story</a></li>
                   </ul>
                 </li>
                 <li><a href="contact.html">Contact Me</a></li>
@@ -87,13 +98,16 @@
             <div class="d-none d-xl-inline-block">
               <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
                 <li>
-                  <a href="https://www.instagram.com/angelikaromanova_/" target="_blank" class="pl-0 pr-3"><span class="icon-instagram"></span></a>
+                  <a href="https://www.instagram.com/angelikaromanova_/" target="_blank" class="pl-0 pr-2"><span class="icon-instagram"></span></a>
                 </li>
                 <li>
-                  <a href="https://t.me/angelikaromanovaa" target="_blank" class="pl-1 pr-3"><span class="icon-telegram"></span></a>
+                  <a href="https://t.me/angelikaromanovaa" target="_blank" class="pl-2 pr-2"><span class="icon-telegram"></span></a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/profile.php?id=100003393513972" target="_blank" class="pl-2 pr-3"><span class="icon-facebook"></span></a>
+                  <a href="https://wa.me/380634432156" target="_blank" class="pl-2 pr-2"><span class="icon-whatsapp"></span></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/profile.php?id=100003393513972" target="_blank" class="pl-2 pr-2"><span class="icon-facebook"></span></a>
                 </li>                
               </ul>
             </div>
@@ -110,93 +124,137 @@
 
 
 
-    <div class="site-section border-bottom">
+    <div class="site-section border-bottom"  data-aos="fade">
       <div class="container">
 
         <div class="row">
+
+
+
+
+
+          <div class="col-12 col-sm-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1">
+
+            <div class="owl-carousel row no-gutters" id="lightgallery">
+
+
+                    <div data-src="images/carousel/1.jpg">
+                      <a href="#"><img src="images/carousel/1.jpg" class="img-fluid"></a>                   
+                    </div>
+                    <div data-src="images/carousel/2.jpg">
+                      <a href="#"><img src="images/carousel/2.jpg" class="img-fluid"></a>                   
+                    </div>
+                    <div data-src="images/carousel/3.jpg">
+                      <a href="#"><img src="images/carousel/3.jpg" class="img-fluid"></a>                   
+                    </div>
+                    <div data-src="images/carousel/4.jpg">
+                      <a href="#"><img src="images/carousel/4.jpg" class="img-fluid"></a>                   
+                    </div>
+                    <div data-src="images/carousel/5.jpg">
+                      <a href="#"><img src="images/carousel/5.jpg" class="img-fluid"></a>                   
+                    </div>
+                    <div data-src="images/carousel/6.jpg">
+                      <a href="#"><img src="images/carousel/6.jpg" class="img-fluid"></a>                   
+                    </div>
+                    <div data-src="images/carousel/7.jpg">
+                      <a href="#"><img src="images/carousel/7.jpg" class="img-fluid"></a>                   
+                    </div>
+                    <div data-src="images/carousel/8.jpg">
+                      <a href="#"><img src="images/carousel/8.jpg" class="img-fluid"></a>                   
+                    </div>
+                    <div data-src="images/carousel/9.jpg">
+                      <a href="#"><img src="images/carousel/9.jpg" class="img-fluid"></a>                   
+                    </div>
+                    <div data-src="images/carousel/10.jpg">
+                      <a href="#"><img src="images/carousel/10.jpg" class="img-fluid"></a>                   
+                    </div>
+             
+            
+            </div>
+
+          </div>
+
+
+
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+
+            <br>
+
+            <center>
+                <p style="font-size: 2rem; font-family: 'Nanum Myeongjo';">
+                  <br>
+                    Because every picture tells a story...
+                  </p>
+            </center>
+                      <br><br>
+
+                   <hr style="border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc);">    
+
+                   <br><br>
+
+
+          </div>
+
+
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+
+            <br>
+
+            <center>
+                <p style="font-size: 1.5rem; font-family: 'Nanum Myeongjo'; font-weight: bold;">
+                    See portfolio
+                  </p>
+                  <br>
+
+            </center>
+                      
+      
+          </div>
+
           
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-            <a class="image-gradient" href="set_1.html">
-                <strong>
-                  <p class="text-center text-dark" style="margin-bottom: 0px; font-size: 1rem; font-family: 'Open Sans', sans-serif;">
-                    Aleksandr & Alina
-                  </p>
-                </strong>
-              <figure>
-                <img src="images/set_1/theme.jpg" alt="" class="img-fluid">
-              </figure>
-            </a>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+
+
+            <p> 
+           
+          </p>
           </div>
 
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-            <a class="image-gradient" href="set_2.html">
-                <strong>
-                  <p class="text-center text-dark" style="margin-bottom: 0px; font-size: 1rem; font-family: 'Open Sans', sans-serif;">
-                    Vitalii & Julia
-                  </p>
-                </strong>
-              <figure>
-                <img src="images/set_2/theme.jpg" alt="" class="img-fluid">
-              </figure>
-            </a>
-          </div>          
 
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-            <a class="image-gradient" href="set_3.html">
-                <strong>
-                  <p class="text-center text-dark" style="margin-bottom: 0px; font-size: 1rem; font-family: 'Open Sans', sans-serif;">
-                    Ivan & Margarita
-                  </p>
-                </strong>
-              <figure>
-                <img src="images/set_3/theme.jpg" alt="" class="img-fluid">
-              </figure>
-            </a>
-          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 ">
 
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-            <a class="image-gradient" href="set_4.html">
-                <strong>
-                  <p class="text-center text-dark" style="margin-bottom: 0px; font-size: 1rem; font-family: 'Open Sans', sans-serif;">
-                    Vitalii & Viktoria
-                  </p>
-                </strong>
-              <figure>
-                <img src="images/set_4/theme.jpg" alt="" class="img-fluid">
-              </figure>
-            </a>
-          </div>
 
-         <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-            <a class="image-gradient" href="set_5.html">
-                <strong>
-                  <p class="text-center text-dark" style="margin-bottom: 0px; font-size: 1rem; font-family: 'Open Sans', sans-serif;">
-                    Andrew & Viktoria
-                  </p>
-                </strong>
-              <figure>
-                <img src="images/set_5/theme.jpg" alt="" class="img-fluid">
-              </figure>
-            </a>
-          </div>
+            <p class="text-center">
+              <span class="pl-5 pr-5">
+                <a class="text-center text-dark" href="portfolio_ls.html">
 
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-            <a class="image-gradient" href="set_6.html">
-                <strong>
-                  <p class="text-center text-dark" style="margin-bottom: 0px; font-size: 1rem; font-family: 'Open Sans', sans-serif;">
-                    Vladislav & Daria
-                  </p>
-                </strong>
-              <figure>
-                <img src="images/set_6/theme.jpg" alt="" class="img-fluid">
-              </figure>
-            </a>  
+                <button class="button-39" role="button" style="font-size: 1.3rem; font-family: 'Nanum Myeongjo';">
+                 Love Story
+                </button>
+           
+            </a>
+              </span>
+              <span class="pl-2 pr-5">
+                <a class="text-center text-dark" href="portfolio_w.html">
+
+                <button class="button-39" role="button" style="font-size: 1.3rem; font-family: 'Nanum Myeongjo';">
+                  Wedding
+                </button>
+           
+            </a>
+              </span>
+            
+             
+          </p>
 
 
 
 <!-- ОТСТУП -->
-          <br>
-<!-- ОТСТУП -->          
+          <br><br><br>
+<!-- ОТСТУП -->   
+
           </div>
 
 
@@ -217,11 +275,12 @@
                 <div>
                   <a href="https://www.instagram.com/angelikaromanova_/" target="_blank" class="pl-0 pr-3"><span class="icon-instagram"></span></a>
                   <a href="https://t.me/angelikaromanovaa" target="_blank" class="pl-1 pr-3"><span class="icon-telegram"></span></a>
-                  <a href="https://www.facebook.com/profile.php?id=100003393513972" target="_blank" class="pl-2 pr-3"><span class="icon-facebook"></span></a>                  
+                  <a href="https://wa.me/380634432156" target="_blank" class="pl-1 pr-3"><span class="icon-whatsapp"></span></a>
+                  <a href="https://www.facebook.com/profile.php?id=100003393513972" target="_blank" class="pl-1 pr-3"><span class="icon-facebook"></span></a>                  
                   <br>
                   <br>
                   <p><a href="tel:+38 063 443 21 56">+38 063 443 21 56</a></p>
-                  <p><a href="mailto: angelikag1998@gmail.com">angelikag1998@gmail.com</a></p>                  
+                  <p><a href="mailto: angeliika.photographer@gmail.com">angeliika.photographer@gmail.com</a></p>                  
                 </div>
 
           </div>
@@ -251,6 +310,7 @@
   <script src="js/picturefill.min.js"></script>
   <script src="js/lightgallery-all.min.js"></script>
   <script src="js/jquery.mousewheel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
   <script src="js/main.js"></script>
   
