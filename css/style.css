@@ -1321,10 +1321,10 @@ a {
 .button-39 {
   background-color: #FFFFFF;
   border: 1px solid rgb(209,213,219);
-  border-radius: 1rem;
+  border-radius: .4rem;
   box-sizing: border-box;
   line-height: 1.25rem;
-  padding: .6rem .8rem;
+  padding: .45rem .7rem;
   text-align: center;
   text-decoration: none #D1D5DB solid;
   text-decoration-thickness: auto;
